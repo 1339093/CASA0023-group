@@ -3,7 +3,7 @@
     "path": "~/Desktop/023-group/group.Rmd",
     "project_path": "group.Rmd",
     "type": "r_markdown",
-    "hash": "1034731139",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1742298894221.0,
@@ -17,11 +17,11 @@
         "scrollLine": "3"
     },
     "folds": "",
-    "lastKnownWriteTime": 1742298972,
+    "lastKnownWriteTime": 1742299266,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1742298972277,
+    "last_content_update": 1742299266,
     "read_only": false,
     "read_only_alternatives": []
 }
