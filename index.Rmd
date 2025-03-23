@@ -725,8 +725,31 @@ class:
 
 <div class="footer">Wetlands — The Kidney of the Earth</div>
 
+---
+# The example of Mangrove Wetland Carbon Storage Monitoring
+
+Our application will reference the interface shown in the image, including the following features:
+- Interactive map displaying mangrove distribution and spatial carbon storage patterns  
+- Carbon storage results from different assessment methods  
+- Mangrove area statistics and coastline coverage analysis  
+- Carbon density and total carbon storage data visualization
+
+<div style="display: flex; justify-content: space-around; margin-top: 25px;">
+
+  <div style="text-align: center; width: 48%;">
+    <img src="pictures/sample2.1.jpg" style="width: 80%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" />
+    <p style="margin-top: 8px; font-size: 0.9em; color: #444;">Sample Interface - Map View</p>
+  </div>
+
+  <div style="text-align: center; width: 48%;">
+    <img src="pictures/sample2.2.jpg" style="width: 85%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" />
+    <p style="margin-top: 8px; font-size: 0.9em; color: #444;">Sample Interface - Data Panel</p>
+  </div>
+
+</div>
 
 ---
+
 #3 Mangrove Restoration Site Identification
 
 <div class="grid-container">
@@ -893,3 +916,5 @@ Liu, K., Cao, J., Lu, M., Li, Q., & Deng, H. (2022). Spatial and temporal dynami
 Lou, A., He, Z., Zhou, C., & Lai, G. (2024). Long-term series wetland classification of Guangdong-Hong Kong-Macao Greater Bay Area based on APSMnet. Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Sun Yat-sen University. 
 
 Peng, K., Jiang, W., Wang, X., Hou, P., Wu, Z., & Cui, T. (2023). Evaluation of future wetland changes under optimal scenarios and land degradation neutrality analysis in the Guangdong-Hong Kong-Macao Greater Bay Area. School of Geographic and Environmental Sciences, Tianjin Normal University. 
+
+Global Mangrove Watch. (2022). Global Mangrove Watch platform. Available at: https://www.globalmangrovewatch.org/ (Accessed: 23 March 2025).
