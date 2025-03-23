@@ -570,7 +570,7 @@ class:
 
 ---
 
-# Sample
+# The example of wetland plant community classification
 
 The results will be displayed via Google Earth Engine and support interactive queries. It will be updated with new data to provide the latest insights.
 
@@ -792,7 +792,13 @@ class:
 <div class="footer">Wetlands — The Kidney of the Earth</div>
 
 ---
+# The Example of Mangrove Restoration Site Identification
 
+<div style="margin-top: -20px; text-align: center;">
+  <img src="pictures/sample3.1.jpg" style="width: 40%; margin-top: -10px;" />
+</div>
+
+---
 
 # Budget 
 
@@ -869,7 +875,21 @@ Liu, M., Leung, F. and Lee, S.-Y., 2022. Interpreting mangrove habitat and coast
 He, T., Fu, Y., Ding, H., Zheng, W., Huang, X., Li, R. and Wu, S., 2022. Evaluation of mangrove wetlands protection patterns in the Guangdong–Hong Kong–Macao Greater Bay Area using time-series Landsat imageries. Remote Sensing, 14(23), p.6026. https://doi.org/10.3390/rs14236026
 
 ---
+# Reference List
 
 Yu, L., Lin, S., Jiao, X., Shen, X. and Li, R., 2019. Ecological problems and protection countermeasures of mangrove wetland in Guangdong-Hong Kong-Macao Greater Bay Area. Acta Scientiarum Naturalium Universitatis Pekinensis, 55(4), pp.782–789. https://doi.org/10.13209/j.0479-8023.2019.051
 
 Zhao, Y., 2010. The remote sensing dynamic monitoring of the evolution of shoreline and mangrove wetlands in the Zhujiang River Estuary in the past 30 years. Remote Sensing for Land and Resources, 22(S1), pp.178–184. https://doi.org/10.6046/gtzyyg.2010.s1.37
+
+Intergovernmental Oceanographic Commission, International Union for Conservation of Nature and Conservation International. (2019). Coastal Blue Carbon: methods for assessing carbon stocks and emissions factors in mangroves, tidal salt marshes, and seagrass meadows [Electronic resource]. [France]: UNESCO. Available at: https://unesdoc.unesco.org/ark:/48223/pf0000372868 (Accessed: 22 March 2025).
+
+Chen, K., Dong, Z., & Gong, J. (2024). Monitoring dynamic mangrove landscape patterns in China: Effects of natural and anthropogenic forcings during 1985–2020. School of Geography and Remote Sensing, Guangzhou University. 
+
+Liu, K., Cao, J., Lu, M., Li, Q., & Deng, H. (2022). Spatial and temporal dynamics of wetlands in Guangdong-Hong Kong-Macao Greater Bay Area from 1976 to 2019. Land, 11(12), 2158. https://doi.org/10.3390/land11122158. 
+
+---
+# Reference List
+
+Lou, A., He, Z., Zhou, C., & Lai, G. (2024). Long-term series wetland classification of Guangdong-Hong Kong-Macao Greater Bay Area based on APSMnet. Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Sun Yat-sen University. 
+
+Peng, K., Jiang, W., Wang, X., Hou, P., Wu, Z., & Cui, T. (2023). Evaluation of future wetland changes under optimal scenarios and land degradation neutrality analysis in the Guangdong-Hong Kong-Macao Greater Bay Area. School of Geographic and Environmental Sciences, Tianjin Normal University. 
