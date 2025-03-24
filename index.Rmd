@@ -104,8 +104,9 @@ background-position: center
 }
 
 </style>
----
 
+
+---
 
 
 #Overview of the Greater Bay Area (GBA)
@@ -162,6 +163,10 @@ background-position: center
 
 
 
+---
+class: inverse, center, middle
+#Why the Project Matters
+Project Background
 
 
 
@@ -360,6 +365,7 @@ The Shenzhen-Hong Kong Cooperation Zone is implementing mangrove restoration ini
 <span style="color:#2e7d32; font-size:1.2em; font-weight:bold">📜 Ramsar Convention on Wetlands</span>  
 
 - Signed in 1971  
+- The first global wetland conservation treaty
 - 172 contracting parties (including China)  
 - Fourth Strategic Plan (2016-2024):  
   - 4 overarching goals 
@@ -415,6 +421,31 @@ The Shenzhen-Hong Kong Cooperation Zone is implementing mangrove restoration ini
 ]
 
 ---
+class: inverse, center, middle
+#How We Approach the Project
+Data & Methods
+
+---
+
+# Methodology Overview
+
+Our comprehensive approach to mangrove wetland monitoring and conservation in the Greater Bay Area incorporates three key methodological components:
+
+1. **Wetland Plant Community Classification**
+   - Remote sensing-based classification of mangrove species and communities
+   - Multi-source data integration for accurate vegetation mapping
+
+2. **Mangrove Wetland Carbon Storage Monitoring**
+   - Assessment of carbon pools in soil and vegetation
+   - Monitoring of carbon cycle processes and carbon storage accounting
+
+3. **Wetland Damage and Restoration Identification**
+   - Identification of degraded mangrove areas
+   - Prioritization of restoration sites based on ecological health assessment
+
+Each methodology employs advanced remote sensing, GIS, and field survey techniques to provide a holistic understanding of mangrove wetland ecosystems.
+
+---
 
 # Project Data Overview
 
@@ -442,27 +473,6 @@ The Shenzhen-Hong Kong Cooperation Zone is implementing mangrove restoration ini
    - Water quality data (pH, NH₄⁺-N, NO₃⁻-N)  
    - Heavy metal pollution data (Cd, Cr, Zn, Pb)  
 ]
-
-
----
-
-# Methodology Overview
-
-Our comprehensive approach to mangrove wetland monitoring and conservation in the Greater Bay Area incorporates three key methodological components:
-
-1. **Wetland Plant Community Classification**
-   - Remote sensing-based classification of mangrove species and communities
-   - Multi-source data integration for accurate vegetation mapping
-
-2. **Mangrove Wetland Carbon Storage Monitoring**
-   - Assessment of carbon pools in soil and vegetation
-   - Monitoring of carbon cycle processes and carbon storage accounting
-
-3. **Wetland Damage and Restoration Identification**
-   - Identification of degraded mangrove areas
-   - Prioritization of restoration sites based on ecological health assessment
-
-Each methodology employs advanced remote sensing, GIS, and field survey techniques to provide a holistic understanding of mangrove wetland ecosystems.
 
 
 ---
@@ -523,9 +533,9 @@ class:
   <div class="box box1">
     <div class="box-title">1. Data Collection and Preprocessing</div>
     <ul>
-      <li>Obtain Sentinel-1 Level-1 GRD SAR images, Sentinel-2 MSI Level-2A images, and 12.5m resolution DEM data from the PIE-Engine Cloud Platform</li>
-      <li>Mosaicking and clipping</li>
-      <li>Thermal noise removal, orbit correction, filtering, radiometric calibration, Doppler terrain correction, and speckle reduction</li>
+      <li>Obtain Sentinel-1 Level-1 GRD SAR images, Sentinel-2 MSI Level-2A images, and 12.5m resolution DEM data from the PIE-Engine Cloud Platform </li>
+      <li>Perform mosaicking and clipping of the images </li>
+      <li>Apply thermal noise removal, orbit correction, filtering, radiometric calibration, Doppler terrain correction, and speckle reduction </li>
       <li>Cloud masking</li>
     </ul>
   </div>
@@ -533,35 +543,38 @@ class:
   <div class="box box2">
     <div class="box-title">2. Multi-Source Feature Extraction</div>
     <ul>
-      <li>Time-series stacks of NDVI, IRECI, and NDWI were derived from preprocessed Sentinel-2 images to analyze vegetation phenology and seasonal variations</li>
+      <li>Generate time-series stacks of NDVI, IRECI, and NDWI from preprocessed Sentinel-2 images to analyze vegetation phenology and seasonal variations </li>
     </ul>
   </div>
   
   <div class="box box3">
     <div class="box-title">3. Feature Selection</div>
     <ul>
-      <li> A Random Forest (RF) model was trained on all features to assess their contribution to classification, selecting the most discriminative ones for analysis</li>
+      <li>Train a Random Forest (RF) model on all features to assess their contribution to classification </li>
+      <li>Select the most discriminative features for further analysis </li>
     </ul>
   </div>
   
   <div class="box box4">
     <div class="box-title">4. Classification</div>
     <ul>
-      <li>A Random Forest model was applied for vegetation community classification</li>
+      <li>Apply a Random Forest model for vegetation community classification </li>
     </ul>
   </div>
   
   <div class="box box5">
     <div class="box-title">5. Optimization of Classification Results</div>
     <ul>
-      <li>A majority filter was used to remove noise, smooth class boundaries, merge adjacent categories, and reclassify isolated pixel regions</li>
+      <li>Use a majority filter to reduce noise, smooth class boundaries, merge adjacent categories, and reclassify isolated pixel regions </li>
     </ul>
   </div>
   
   <div class="box box6">
     <div class="box-title">6. Accuracy measurement</div>
     <ul>
-      <li>GPS was used to locate the distribution of wetland plant types in shallow water areas, while UAVs were employed to capture aerial imagery of wetlands in deeper water areas, providing field data for the calculation of classification accuracy</li>
+      <li>Use GPS to locate the distribution of wetland plant types in shallow water areas </li>
+      <li>Employ UAVs to capture aerial imagery of wetlands in deeper water areas </li>
+      <li>Collect field data for the calculation of classification accuracy </li>
     </ul>
   </div>
 </div>
@@ -574,7 +587,6 @@ class:
 
 The results will be displayed via Google Earth Engine and support interactive queries. It will be updated with new data to provide the latest insights.
 
-Layers include:  
 - Wetland Plant Community Distribution Map: Users select a region of interest, and the system automatically calculates the total area and structure of vegetation communities within it.
 
 <div style="display: flex; justify-content: space-around; margin-top: 30px;">
@@ -822,6 +834,12 @@ Our application will reference the interface shown in the image, including the f
 </div>
 
 ---
+class: inverse, center, middle
+#Our Resource Allocation and Schedule
+Budget & Timeline
+
+
+---
 
 # Budget 
 
@@ -837,6 +855,11 @@ knitr::include_graphics("pictures/budget.png")
 ```{r, echo=FALSE, out.width='95%', fig.align='center'}
 knitr::include_graphics("pictures/gante.png")
 ```
+
+---
+class: inverse, center, middle
+# Summary
+
 
 ---
 
